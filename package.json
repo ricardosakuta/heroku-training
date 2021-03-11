@@ -1,0 +1,21 @@
+{
+  "name": "heroku-training",
+  "version": "1.0.0",
+  "description": "heroku-training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd api && npm install && npm start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardosakuta/heroku-training.git"
+  },
+  "author": "Ricardo Sakuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardosakuta/heroku-training/issues"
+  },
+  "homepage": "https://github.com/ricardosakuta/heroku-training#readme"
+}
